@@ -1,0 +1,1 @@
+const url=new URL(window.location.href),state=url.searchParams.get("state"),code=url.searchParams.get("code");window.opener.acceptedGoogleLogin=!0,window.opener.receiveToken({state,code}),window.close();
