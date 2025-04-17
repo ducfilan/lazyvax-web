@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Successful</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+        }
+        h1 {
+            margin-bottom: 1rem;
+        }
+        p {
+            margin-bottom: 1.5rem;
+        }
+        button {
+            background-color: #4285F4;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        button:hover {
+            background-color: #3367D6;
+        }
+        .note {
+            margin-top: 1.5rem;
+            font-size: 0.875rem;
+            color: #666;
+        }
+        .instructions {
+            margin-top: 1.5rem;
+            text-align: left;
+            font-size: 0.9rem;
+            color: #333;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .instructions li {
+            margin-bottom: 0.5rem;
+        }
+        #promptStatus {
+            font-weight: bold;
+            color: #666;
+            margin-top: 0.5rem;
+        }
+        .hidden {
+            display: none;
+        }
+        .dev-mode {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background-color: #f0f0f0;
+            border-radius: 0.5rem;
+            border: 1px dashed #ccc;
+        }
+        .auth-data {
+            font-family: monospace;
+            background-color: #333;
+            color: #fff;
+            padding: 0.75rem;
+            border-radius: 0.25rem;
+            max-width: 100%;
+            overflow-x: auto;
+            text-align: left;
+            margin-top: 0.5rem;
+        }
+        .copy-btn {
+            background-color: #333;
+            margin-top: 0.5rem;
+            font-size: 0.8rem;
+            padding: 0.5rem 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Authentication Successful</h1>
+        <p>You have successfully authenticated with Google.</p>
+        
+        <button id="openAppBtn">Open App</button>
+        <p id="promptStatus"></p>
+        
+        <div class="instructions">
+            <p>If the app doesn't open automatically:</p>
+            <ol>
+                <li>Click the "Open App" button above.</li>
+                <li>If prompted, select "Open" in the dialog.</li>
+                <li>If no dialog appears, you may need to manually open the app.</li>
+                <li>The app will automatically receive your authentication details.</li>
+            </ol>
+        </div>
+        
+        <div id="devMode" class="dev-mode hidden">
+            <h3>Development Mode</h3>
+            <p>Deep link handler not registered. Copy this auth data:</p>
+            <div id="authData" class="auth-data"></div>
+            <button id="copyBtn" class="copy-btn">Copy Auth Data</button>
+        </div>
+        
+        <p class="note">You can close this window after the app opens.</p>
+    </div>
+
+    <script>
+        function getQueryParams() {
+            const params = new URLSearchParams(window.location.search)
+            const result = {}
+            for (const [key, value] of params) {
+                result[key] = value
+            }
+            return result
+        }
+
+        function openApp() {
+            const params = getQueryParams()
+            const queryString = new URLSearchParams(params).toString()
+            const deepLinkUrl = `lazyvax-auth://callback?${queryString}`
+            
+            console.log("Opening deep link:", deepLinkUrl)
+            
+            // Safari requires different handling
+            const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent)
+            
+            try {
+                if (isSafari) {
+                    // For Safari: set window.location and then focus window to trigger the dialog
+                    window.location.href = deepLinkUrl
+                    window.focus()
+                } else {
+                    // Create a hidden iframe for better handling in Chrome and Firefox
+                    const iframe = document.createElement('iframe')
+                    iframe.style.display = 'none'
+                    document.body.appendChild(iframe)
+                    iframe.src = deepLinkUrl
+                }
+                
+                // Update status message
+                document.getElementById('promptStatus').textContent = 'App opening request sent...'
+                
+                // Set timeout to check if app was opened
+                setTimeout(() => {
+                    document.getElementById('promptStatus').textContent = 'Please click "Open" if prompted by your browser'
+                    
+                    // After a delay, if we're still here, show development fallback
+                    setTimeout(showDevFallback, 2000)
+                }, 1000)
+            } catch (e) {
+                console.error('Error opening app:', e)
+                showDevFallback()
+            }
+        }
+        
+        function showDevFallback() {
+            const devMode = document.getElementById('devMode')
+            const authData = document.getElementById('authData')
+            const params = getQueryParams()
+            
+            // Show dev mode fallback UI
+            devMode.classList.remove('hidden')
+            
+            // Format and display auth data
+            authData.textContent = JSON.stringify(params, null, 2)
+            
+            // Setup copy button
+            document.getElementById('copyBtn').addEventListener('click', () => {
+                navigator.clipboard.writeText(JSON.stringify(params))
+                    .then(() => {
+                        const copyBtn = document.getElementById('copyBtn')
+                        copyBtn.textContent = 'Copied!'
+                        setTimeout(() => {
+                            copyBtn.textContent = 'Copy Auth Data'
+                        }, 2000)
+                    })
+            })
+        }
+
+        // Try to open app when page loads, with a slight delay for browser to be ready
+        setTimeout(() => {
+            openApp()
+        }, 300)
+        
+        // Add click handler for the button
+        document.getElementById('openAppBtn').addEventListener('click', openApp)
+    </script>
+</body>
+</html> 
