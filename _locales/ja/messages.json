@@ -1,0 +1,427 @@
+{
+  "appName": {
+    "message": "Lazyvax Platform",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "オンラインの気晴らしを減らし、インターネットでの時間を節約し、人々を学習に戻し、知識を共有するように動機付けるのに役立ちます。",
+    "description": "The description of the application"
+  },
+  "error": {
+    "message": "エラー"
+  },
+  "unexpected_error_message": {
+    "message": "予期しないエラーが発生しました😢！後でもう一度やり直してください..."
+  },
+  "data_saved_message": {
+    "message": "心配しないでください。データは保存されており、後で簡単に復元できます。"
+  },
+  "login_google": {
+    "message": "Googleでログイン"
+  },
+  "login_failed_message": {
+    "message": "ログインに失敗しました。もう一度お願いします。"
+  },
+  "logout": {
+    "message": "ログアウト"
+  },
+  "time_in_day_greeting": {
+    "message": ":greeting_string！"
+  },
+  "introduce_shib_tell_about_time": {
+    "message": "地球が回転するにつれて、時間は進みます（10年前を振り返ってみてください、どれだけ素早く時間が過ぎたか）。私たちの人生は短く、時間は私たちを待ってはくれません...😢"
+  },
+  "introduce_shib_ask_fulfill_potential": {
+    "message": "目標を振り返り、時間の使い方、そして個人的な成長について考えると、あなたは自分のポテンシャルを充分に発揮できたと感じていますか？"
+  },
+  "introduce_shib_self_intro_name": {
+    "message": "✨Lava✨と呼んでください。🤗"
+  },
+  "introduce_shib_self_intro_meeting": {
+    "message": "自己改善に取り組んでいただいて嬉しいです！\nあなたをより良く理解するために、非常に簡単な質問があります。ますます、1クリックであなたの名前を知ってもいいでしょうか？"
+  },
+  "introduce_ask_to_sign_in_header": {
+    "message": "私たちはこの旅を一緒に歩んでいます。"
+  },
+  "answer_questionnaires_button": {
+    "message": "はい、私にやらせてください。"
+  },
+  "imagine_no_suggestions_selected": {
+    "message": "ねえ、これらの特徴は変わる可能性があることを知っていますが、目標を持つことが役立ちます。将来の自分を表す特性について考えてみてください。"
+  },
+  "imagine_personal_statement": {
+    "message": "私は:virtues人になります。私はその方向に自分自身を整えます。"
+  },
+  "popup_introduce_close_friend_message": {
+    "message": "私たちは今とても近くにいます、あと一歩です!"
+  },
+  "login_ask_to_login_message": {
+    "message": "一緒に旅を始める前に、Googleアカウントでログインしてください。"
+  },
+  "good_morning": {
+    "message": "おはようございます"
+  },
+  "good_afternoon": {
+    "message": "こんにちは"
+  },
+  "good_evening": {
+    "message": "こんばんは"
+  },
+  "popup_introduce_finished": {
+    "message": "よくやった、:user_name!👏\nこれで 1 歩近づいた、ねえ、私の親友!"
+  },
+  "search_place_holder": {
+    "message": "検索"
+  },
+  "common_items": {
+    "message": "項目数"
+  },
+  "common_cancel": {
+    "message": "キャンセル"
+  },
+  "common_filter": {
+    "message": "フィルター"
+  },
+  "common_from": {
+    "message": "から"
+  },
+  "common_to": {
+    "message": "まで"
+  },
+  "select": {
+    "message": "選択"
+  },
+  "select_all": {
+    "message": "全て選択"
+  },
+  "clear_all": {
+    "message": "全て削除"
+  },
+  "required_field": {
+    "message": "これは必須情報"
+  },
+  "leave_warning_message": {
+    "message": "入力した情報はまだ保存されていません。大丈夫ですか?"
+  },
+  "common_back": {
+    "message": "戻る"
+  },
+  "common_close": {
+    "message": "閉じる"
+  },
+  "common_next": {
+    "message": "次"
+  },
+  "common_skip": {
+    "message": "スキップ"
+  },
+  "common_understand": {
+    "message": "分かりました!"
+  },
+  "common_create": {
+    "message": "作成"
+  },
+  "common_restore": {
+    "message": "復元"
+  },
+  "common_remove": {
+    "message": "削除する"
+  },
+  "common_yes": {
+    "message": "はい"
+  },
+  "common_no": {
+    "message": "いいえ"
+  },
+  "common_creator": {
+    "message": "作家"
+  },
+  "common_created": {
+    "message": "作成した"
+  },
+  "common_upload": {
+    "message": "アップロード"
+  },
+  "common_edit_image": {
+    "message": "画像を編集する"
+  },
+  "common_inject_card_disclaimer": {
+    "message": "⚠このコンテンツはLazyvaxに属しています"
+  },
+  "common_save_changes": {
+    "message": "変更を保存"
+  },
+  "common_more": {
+    "message": "もっと"
+  },
+  "common_test": {
+    "message": "テスト"
+  },
+  "common_term": {
+    "message": "概念"
+  },
+  "common_definition": {
+    "message": "意味"
+  },
+  "common_end_list_result": {
+    "message": "全て表示されました。:)"
+  },
+  "common_not_found": {
+    "message": "見つかりません"
+  },
+  "common_buy_now": {
+    "message": "購入"
+  },
+  "common_owner": {
+    "message": "オーナー"
+  },
+  "common_introduction": {
+    "message": "紹介"
+  },
+  "common_properties": {
+    "message": "プロパティ"
+  },
+  "common_ignore": {
+    "message": "無視"
+  },
+  "common_got_it": {
+    "message": "了解した"
+  },
+  "common_check": {
+    "message": "確認"
+  },
+  "common_success": {
+    "message": "成功"
+  },
+  "common_all_items": {
+    "message": "全てのアイテム"
+  },
+  "common_done": {
+    "message": "完了"
+  },
+  "common_not_done": {
+    "message": "残ってる"
+  },
+  "common_copy": {
+    "message": "コピー"
+  },
+  "common_copied": {
+    "message": "コピーしました"
+  },
+  "common_flip": {
+    "message": "ひっくり返す"
+  },
+  "common_hour": {
+    "message": "時間"
+  },
+  "common_minute": {
+    "message": "分"
+  },
+  "common_second": {
+    "message": "秒"
+  },
+  "common_few_seconds": {
+    "message": "数秒"
+  },
+  "common_retry": {
+    "message": "再試行"
+  },
+  "max_length_field": {
+    "message": "最大は："
+  },
+  "i_love_you": {
+    "message": "私はあなたが好き！ ❤️"
+  },
+  "suggestion_pin_extension": {
+    "message": "Lazyvax をピン留めして、進行状況にすばやくアクセスすることをお勧めします!"
+  },
+  "rich_text_upload_modal_title": {
+    "message": "写真を追加する"
+  },
+  "rich_text_insert_url_title": {
+    "message": "写真リンクを挿入"
+  },
+  "rich_text_upload_tab_title": {
+    "message": "写真をアップロード"
+  },
+  "rich_text_image_url": {
+    "message": "写真リンク"
+  },
+  "network_error_timeout": {
+    "message": "私は疲れてしまいました。今回はお役に立てず申し訳ございません。 数秒待ってから、もう一度やり直してください。\n（タイムアウトエラー）"
+  },
+  "network_error_offline": {
+    "message": "私はあなたに役立つ知識を得るためにインターネットが必要ですが、あなたはオフラインのようです。 オンラインに戻るまでしばらく待ってから、もう一度お試しください。"
+  },
+  "bubble_widget_send_feedback": {
+    "message": "フィードバックの送信"
+  },
+  "user_profile_update_pages_success": {
+    "message": "設定が正常に更新されました。"
+  },
+  "getting_started_fulfill_question_answer": {
+    "message": "いいえ、改善したいです"
+  },
+  "getting_started_with_lazyvax": {
+    "message": "Lazyvaxを使い始める"
+  },
+  "before_login_conversation_description": {
+    "message": "Lazyvax へようこそ！このガイドは、新しい旅を始めるための初心者向けガイドです。"
+  },
+  "questionnaires_user_category": {
+    "message": "あなたは専門的に働いていますか、それとも学生ですか？"
+  },
+  "questionnaires_age": {
+    "message": "年齢を教えていただけますか？"
+  },
+  "questionnaires_gender": {
+    "message": "性別を教えていただけますか？あなたに合わせた体験を提供するためです。"
+  },
+  "questionnaires_worker_type": {
+    "message": "どの種類の労働者ですか？"
+  },
+  "questionnaires_occupation": {
+    "message": "職業は何ですか？"
+  },
+  "questionnaires_degree": {
+    "message": "どのような学位を目指していますか？"
+  },
+  "questionnaires_study_course": {
+    "message": "あなたの専攻は何ですか？"
+  },
+  "questionnaires_finish_message": {
+    "message": "あなたの好みを教えてくれてありがとう！これであなたの体験がさらに楽しくなるようにカスタマイズするからね！"
+  },
+  "questionnaires_finish_button": {
+    "message": "準備はいいかな？レッツゴー！"
+  },
+  "new_conversation_title": {
+    "message": "新しいゴール、新しい挑戦！"
+  },
+  "new_conversation_description": {
+    "message": "魔法を起こしましょう！"
+  },
+  "new_conversation_first_message": {
+    "message": "さあ、転がり出そう！達成したい大きな目標は何ですか？あなたの目標を私に共有してください、そうすればあなたが目標に到達する手助けができます！"
+  },
+  "is_thinking": {
+    "message": ":user_nameが考え中です"
+  },
+  "milestone_list_title": {
+    "message": "ミッション：チェックリストを粉砕、開始！"
+  },
+  "empty_milestones_message": {
+    "message": "待ってて、友よ！今は道が空っぽかもしれないけど、心配しないで。私があなたの頼れるガイドになって、秘密を解き明かし、何もないところから素晴らしいものを作り出すよ！"
+  },
+  "new_goal": {
+    "message": "新しい目標"
+  },
+  "left_sider_explore": {
+    "message": "探索"
+  },
+  "right_sider_add_to_list": {
+    "message": "チェックのアクションを保存する"
+  },
+  "right_sider_skip_milestone": {
+    "message": "このマイルストーンをスキップする"
+  },
+  "right_sider_add_action": {
+    "message": "アクション追加"
+  },
+  "right_sider_add_milestone": {
+    "message": "マイルストーン追加"
+  },
+  "right_sider_failed_add": {
+    "message": "アクションの追加に失敗しました!"
+  },
+  "suggestion_card_not_logged_in_text": {
+    "message": "こんにちは！より多くの目標達成を手伝うために、まず、あなたは誰なのか教えていただけますか？ログインしましょう。数秒で完了しますよ！"
+  },
+  "suggestion_card_not_logged_in_btn": {
+    "message": "今すぐしましょう"
+  },
+  "bubble_notify_usage_too_much": {
+    "message": "こんにちは、:user_nameさん！時計が進んでいますね - ここで :domain を利用して :limit_time も経過しています！いつの間にか時間が経つものですね、正解でしょう？優先事項、友よ！ 😄 さあ、もっと重要なミッションに挑戦する準備はできていますか？ 🚀"
+  },
+  "retry_message_text": {
+    "message": "おっとっと！メッセージが途中で消えちゃいましたね。再送信していただけますか？今度はちゃんと受け取りますよ！ 😄"
+  },
+  "your_streak": {
+    "message": "あなたのStreak"
+  },
+  "streak_motivation": {
+    "message": "連続記録を維持するためにできることをしましょう。私はあなたを信じています！ ❤️"
+  },
+  "journey_mood_asking": {
+    "message": "今日はどうでしたか？"
+  },
+  "weekly_journey_current_week": {
+    "message": "もう年の第:week_number週ですね！- :week_startから:week_endまで開始"
+  },
+  "weekly_journey_plan_this_week": {
+    "message": "簡単に計画"
+  },
+  "weekly_journey_no_plan_today": {
+    "message": "一緒にチームを組んで、今日を素晴らしい日にしましょう！ 🤩"
+  },
+  "weekly_journey_no_plan_day_0": {
+    "message": "おっとっと、今日は計画の船に乗り遅れました！😭"
+  },
+  "weekly_journey_no_plan_day_1": {
+    "message": "おっと！今日は計画から逃げてしまったようです... 😢"
+  },
+  "weekly_journey_no_plan_day_2": {
+    "message": "おっと、今日は計画がありませんでした！ 😥"
+  },
+  "weekly_journey_no_plan_day_3": {
+    "message": "おっと、今日は自由な日です！ 😔"
+  },
+  "weekly_journey_no_plan_day_4": {
+    "message": "おっと！今日の計画を忘れてしまいました 😞"
+  },
+  "weekly_journey_no_plan_day_5": {
+    "message": "おっと、今日は暴走してしまったようです！ 😟"
+  },
+  "weekly_journey_no_plan_day_6": {
+    "message": "おっと、今日は自発性で動いています！ 😩"
+  },
+  "weekly_journey_ask_to_make_plan": {
+    "message": "これを想像してみてください：一日の終わりに、自分自身にハイタッチしている生産性の忍者。 🥋✨\nでは、今日は何をしたいですか？"
+  },
+  "weekly_journey_ask_to_make_plan_button": {
+    "message": "準備、セット、計画"
+  },
+  "weekly_journey_ask_to_make_plan_button_no_plan": {
+    "message": "今日は休みます、予定なし"
+  },
+  "weekly_journey_ask_to_backfill_plan": {
+    "message": "何か追加して、完全にコントロールしていたかのように見せたいですか？ 😉\nプロのようにバックフィルする準備はできましたか？"
+  },
+  "weekly_journey_ask_to_backfill_plan_button": {
+    "message": "はい、入れてください"
+  },
+  "daily_plan_todo_prefix": {
+    "message": "今日、私が約束するタスクは"
+  },
+  "priority": {
+    "message": "優先順位"
+  },
+  "priority_high": {
+    "message": "高"
+  },
+  "priority_medium": {
+    "message": "中"
+  },
+  "priority_low": {
+    "message": "低"
+  },
+  "daily_plan_add_todo_header": {
+    "message": "今日は何をする？ 今日の冒険リストには何がありますか？"
+  },
+  "socket_disconnect_message": {
+    "message": "待っている間に寝てしまった。準備ができたら起こしてね。💤"
+  },
+  "socket_disconnect_button": {
+    "message": "起こして"
+  }
+}
