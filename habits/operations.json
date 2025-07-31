@@ -1,0 +1,2559 @@
+[
+  {
+    "name": "LUNCH",
+    "title": "\uD83C\uDF71 Lunch",
+    "idealTime": "12:00:00",
+    "recurrence": {
+      "frequency": "WEEKLY",
+      "idealDays": [
+        "TUESDAY",
+        "FRIDAY",
+        "THURSDAY",
+        "MONDAY",
+        "WEDNESDAY"
+      ],
+      "interval": 1
+    },
+    "durationMaxMins": 60,
+    "durationMinMins": 30,
+    "eventType": "PERSONAL",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "11:30:00",
+              "end": "14:00:00",
+              "duration": 9000.000000000
+            }
+          ],
+          "startOfDay": "11:30:00",
+          "endOfDay": "14:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "11:30:00",
+              "end": "14:00:00",
+              "duration": 9000.000000000
+            }
+          ],
+          "startOfDay": "11:30:00",
+          "endOfDay": "14:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "11:30:00",
+              "end": "14:00:00",
+              "duration": 9000.000000000
+            }
+          ],
+          "startOfDay": "11:30:00",
+          "endOfDay": "14:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "11:30:00",
+              "end": "14:00:00",
+              "duration": 9000.000000000
+            }
+          ],
+          "startOfDay": "11:30:00",
+          "endOfDay": "14:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "11:30:00",
+              "end": "14:00:00",
+              "duration": 9000.000000000
+            }
+          ],
+          "startOfDay": "11:30:00",
+          "endOfDay": "14:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P1",
+    "reservedWords": [
+      "lunch",
+      "almuerzo",
+      "mittagessen",
+      "déjeuner",
+      "pranzo",
+      "dinar",
+      "午餐",
+      "ランチ",
+      "점심",
+      "frokost",
+      "obiad",
+      "almoço"
+    ]
+  },
+  {
+    "name": "MORNING_CATCHUP",
+    "title": "\uD83D\uDCE7 Morning Catch Up",
+    "idealTime": "09:00:00",
+    "recurrence": {
+      "frequency": "WEEKLY",
+      "idealDays": [
+        "TUESDAY",
+        "FRIDAY",
+        "THURSDAY",
+        "MONDAY",
+        "WEDNESDAY"
+      ],
+      "interval": 1
+    },
+    "durationMaxMins": 30,
+    "durationMinMins": 15,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "10:00:00",
+              "duration": 7200.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "10:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "10:00:00",
+              "duration": 7200.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "10:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "10:00:00",
+              "duration": 7200.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "10:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "10:00:00",
+              "duration": 7200.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "10:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "10:00:00",
+              "duration": 7200.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "10:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "AFTERNOON_CATCHUP",
+    "title": "\uD83D\uDCE7 Afternoon Catch Up",
+    "idealTime": "16:30:00",
+    "recurrence": {
+      "frequency": "WEEKLY",
+      "idealDays": [
+        "TUESDAY",
+        "FRIDAY",
+        "THURSDAY",
+        "MONDAY",
+        "WEDNESDAY"
+      ],
+      "interval": 1
+    },
+    "durationMaxMins": 25,
+    "durationMinMins": 25,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "13:00:00",
+              "end": "18:00:00",
+              "duration": 18000.000000000
+            }
+          ],
+          "startOfDay": "13:00:00",
+          "endOfDay": "18:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "13:00:00",
+              "end": "18:00:00",
+              "duration": 18000.000000000
+            }
+          ],
+          "startOfDay": "13:00:00",
+          "endOfDay": "18:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "13:00:00",
+              "end": "18:00:00",
+              "duration": 18000.000000000
+            }
+          ],
+          "startOfDay": "13:00:00",
+          "endOfDay": "18:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "13:00:00",
+              "end": "18:00:00",
+              "duration": 18000.000000000
+            }
+          ],
+          "startOfDay": "13:00:00",
+          "endOfDay": "18:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "13:00:00",
+              "end": "18:00:00",
+              "duration": 18000.000000000
+            }
+          ],
+          "startOfDay": "13:00:00",
+          "endOfDay": "18:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "WEEKLY_STATUS_REPORT",
+    "title": "✍️ Weekly Status Report",
+    "idealTime": "16:00:00",
+    "recurrence": {
+      "frequency": "WEEKLY",
+      "idealDays": [
+        "FRIDAY"
+      ],
+      "interval": 1
+    },
+    "durationMaxMins": 60,
+    "durationMinMins": 30,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "15:00:00",
+              "end": "18:00:00",
+              "duration": 10800.000000000
+            }
+          ],
+          "startOfDay": "15:00:00",
+          "endOfDay": "18:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "15:00:00",
+              "end": "18:00:00",
+              "duration": 10800.000000000
+            }
+          ],
+          "startOfDay": "15:00:00",
+          "endOfDay": "18:00:00"
+        }
+      },
+      "startOfWeek": "THURSDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "REVIEW_DEPARTMENT_REQUIREMENTS",
+    "title": "\uD83C\uDFF0 Review Department Requirements",
+    "idealTime": "14:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 6
+      }
+    },
+    "durationMaxMins": 180,
+    "durationMinMins": 120,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "SECURITY_REVIEWS",
+    "title": "\uD83D\uDD12 Security Reviews",
+    "idealTime": "13:00:00",
+    "recurrence": {
+      "frequency": "WEEKLY",
+      "idealDays": [
+        "WEDNESDAY"
+      ],
+      "interval": 1
+    },
+    "durationMaxMins": 240,
+    "durationMinMins": 120,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "WEDNESDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "RECRUITMENT",
+    "title": "\uD83D\uDD75️️ Recruitment",
+    "idealTime": "13:00:00",
+    "recurrence": {
+      "frequency": "WEEKLY",
+      "idealDays": [
+        "MONDAY"
+      ],
+      "interval": 1
+    },
+    "durationMaxMins": 180,
+    "durationMinMins": 120,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "TEAM_MEETING_PREP",
+    "title": "\uD83D\uDD7A Team Meeting Prep",
+    "idealTime": "10:00:00",
+    "recurrence": {
+      "frequency": "WEEKLY",
+      "idealDays": [
+        "MONDAY"
+      ],
+      "interval": 1
+    },
+    "durationMaxMins": 60,
+    "durationMinMins": 30,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "TUESDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "LEGAL_COMPLIANCE_REVIEW",
+    "title": "\uD83E\uDDD1‍⚖️Legal & Compliance Review",
+    "idealTime": "13:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 2
+      }
+    },
+    "durationMaxMins": 240,
+    "durationMinMins": 120,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "VENDOR_REVIEWS",
+    "title": "\uD83E\uDDF0 Vendor Reviews",
+    "idealTime": "15:00:00",
+    "recurrence": {
+      "frequency": "WEEKLY",
+      "idealDays": [
+        "MONDAY"
+      ],
+      "interval": 1
+    },
+    "durationMaxMins": 120,
+    "durationMinMins": 60,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "BUSINESS_PERFORMANCE_REVIEW",
+    "title": "\uD83C\uDFE2 Business Performance Review",
+    "idealTime": "13:00:00",
+    "recurrence": {
+      "frequency": "WEEKLY",
+      "idealDays": [
+        "MONDAY"
+      ],
+      "interval": 2
+    },
+    "durationMaxMins": 240,
+    "durationMinMins": 120,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "PERFORMANCE_REVIEW_PLANNING",
+    "title": "\uD83E\uDDE0 Performance Review Planning",
+    "idealTime": "14:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 15
+      }
+    },
+    "durationMaxMins": 45,
+    "durationMinMins": 30,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P2"
+  },
+  {
+    "name": "SALES_AND_REVENUE_ANALYSIS",
+    "title": "\uD83D\uDCC8 Sales & Revenue Analysis",
+    "idealTime": "10:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 2
+      }
+    },
+    "durationMaxMins": 60,
+    "durationMinMins": 30,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P2"
+  },
+  {
+    "name": "INVENTORY_MANAGEMENT_AND_RECONCILIATION",
+    "title": "\uD83E\uDDEE Inventory Management & Reconciliation",
+    "idealTime": "09:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 5
+      }
+    },
+    "durationMaxMins": 120,
+    "durationMinMins": 60,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P2"
+  },
+  {
+    "name": "REVIEW_TIME_TRACKING_ANALYTICS",
+    "title": "\uD83D\uDCCA Review Time Tracking Analytics",
+    "idealTime": "15:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 5
+      }
+    },
+    "durationMaxMins": 60,
+    "durationMinMins": 30,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "QUALITY_CONTROL_ASSESSMENTS",
+    "title": "\uD83D\uDCCB Quality Control Assessments",
+    "idealTime": "13:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 21
+      }
+    },
+    "durationMaxMins": 90,
+    "durationMinMins": 60,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "UPDATE_SOFTWARE_SYSTEMS_AND_APPLICATIONS",
+    "title": "\uD83D\uDCBB Update Software Systems & Applications",
+    "idealTime": "15:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 7
+      }
+    },
+    "durationMaxMins": 90,
+    "durationMinMins": 60,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P2"
+  },
+  {
+    "name": "EQUIPMENT_MAINTENANCE_AND_SERVICING",
+    "title": "\uD83D\uDEE0️ Equipment Maintenance & Servicing",
+    "idealTime": "13:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 28
+      }
+    },
+    "durationMaxMins": 120,
+    "durationMinMins": 60,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P2"
+  },
+  {
+    "name": "REVIEW_AND_REPLENISH_OFFICE_SUPPLIES",
+    "title": "\uD83D\uDD87️ Review & Replenish Office Supplies",
+    "idealTime": "10:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 7
+      }
+    },
+    "durationMaxMins": 60,
+    "durationMinMins": 30,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P2"
+  },
+  {
+    "name": "HEALTH_AND_SAFETY_INSPECTIONS",
+    "title": "\uD83D\uDE37 Health & Safety Inspections",
+    "idealTime": "08:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 2
+      }
+    },
+    "durationMaxMins": 90,
+    "durationMinMins": 60,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P1"
+  },
+  {
+    "name": "REVIEW_MARKETING_STRATEGIES",
+    "title": "\uD83D\uDD0D Review Marketing Strategies",
+    "idealTime": "15:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 5
+      }
+    },
+    "durationMaxMins": 60,
+    "durationMinMins": 30,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "09:00:00",
+              "end": "17:00:00",
+              "duration": 28800.000000000
+            }
+          ],
+          "startOfDay": "09:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "UPDATE_EMPLOYEE_SCHEDULES",
+    "title": "\uD83D\uDDD3️ Update Employee Schedules",
+    "idealTime": "08:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 21
+      }
+    },
+    "durationMaxMins": 120,
+    "durationMinMins": 60,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "09:00:00",
+              "end": "17:00:00",
+              "duration": 28800.000000000
+            }
+          ],
+          "startOfDay": "09:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P1"
+  },
+  {
+    "name": "REVIEW_COMPANY_GOALS",
+    "title": "\uD83E\uDD45 Review Company Goals",
+    "idealTime": "14:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 5
+      }
+    },
+    "durationMaxMins": 90,
+    "durationMinMins": 30,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "09:00:00",
+              "end": "17:00:00",
+              "duration": 28800.000000000
+            }
+          ],
+          "startOfDay": "09:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P2"
+  },
+  {
+    "name": "UPDATE_PROJECT_TIMELINES_AND_MILESTONES",
+    "title": "\uD83D\uDCCC Update Project Timelines & Milestones",
+    "idealTime": "08:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 28
+      }
+    },
+    "durationMaxMins": 90,
+    "durationMinMins": 60,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "09:00:00",
+              "end": "17:00:00",
+              "duration": 28800.000000000
+            }
+          ],
+          "startOfDay": "09:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P2"
+  },
+  {
+    "name": "MARKET_RESEARCH",
+    "title": "\uD83D\uDD75️ Market Research",
+    "idealTime": "15:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 14
+      }
+    },
+    "durationMaxMins": 90,
+    "durationMinMins": 30,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "09:00:00",
+              "end": "17:00:00",
+              "duration": 28800.000000000
+            }
+          ],
+          "startOfDay": "09:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "PREPARE_MONTHLY_TEAM_BUILDING_ACTIVITIES",
+    "title": "\uD83C\uDFB3 Prepare Monthly Team-Building Activities",
+    "idealTime": "15:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 14
+      }
+    },
+    "durationMaxMins": 60,
+    "durationMinMins": 30,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "09:00:00",
+              "end": "17:00:00",
+              "duration": 28800.000000000
+            }
+          ],
+          "startOfDay": "09:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "ANALYZE_EMPLOYEE_TURNOVER_RATES",
+    "title": "\uD83D\uDD0D Analyze Employee Turnover Rates",
+    "idealTime": "15:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 7
+      }
+    },
+    "durationMaxMins": 60,
+    "durationMinMins": 30,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "09:00:00",
+              "end": "17:00:00",
+              "duration": 28800.000000000
+            }
+          ],
+          "startOfDay": "09:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "MONTHLY_METRICS_REVIEW",
+    "title": "\uD83D\uDCC8 Monthly Metrics Review",
+    "idealTime": "09:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 25
+      }
+    },
+    "durationMaxMins": 120,
+    "durationMinMins": 60,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "REVIEW_PROCUREMENT_REQUESTS",
+    "title": "\uD83D\uDCB8 Review Procurement Requests",
+    "idealTime": "14:00:00",
+    "recurrence": {
+      "frequency": "WEEKLY",
+      "idealDays": [
+        "THURSDAY"
+      ],
+      "interval": 1
+    },
+    "durationMaxMins": 120,
+    "durationMinMins": 60,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "THURSDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "REVIEW_SUPPLIER_AGREEMENTS",
+    "title": "\uD83D\uDD87 Review Supplier Agreements",
+    "idealTime": "11:00:00",
+    "recurrence": {
+      "frequency": "WEEKLY",
+      "idealDays": [
+        "MONDAY"
+      ],
+      "interval": 1
+    },
+    "durationMaxMins": 120,
+    "durationMinMins": 60,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "UPDATE_INTERNAL_POLICIES",
+    "title": "\uD83D\uDCD4 Update Internal Policies",
+    "idealTime": "13:00:00",
+    "recurrence": {
+      "frequency": "WEEKLY",
+      "idealDays": [
+        "MONDAY"
+      ],
+      "interval": 1
+    },
+    "durationMaxMins": 120,
+    "durationMinMins": 60,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "ANALYZE_TECHNOLOGY_USAGE",
+    "title": "\uD83D\uDD79 Analyze Technology Usage",
+    "idealTime": "09:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 16
+      }
+    },
+    "durationMaxMins": 120,
+    "durationMinMins": 60,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "REVIEW_TEAM_WORKFLOWS",
+    "title": "\uD83C\uDFCB️‍ Review Team Workflows",
+    "idealTime": "09:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 26
+      }
+    },
+    "durationMaxMins": 120,
+    "durationMinMins": 60,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  },
+  {
+    "name": "UPDATE_OPERATIONAL_PROCEDURES",
+    "title": "\uD83D\uDCDA Update Operational Procedures",
+    "idealTime": "13:00:00",
+    "recurrence": {
+      "frequency": "MONTHLY",
+      "interval": 1,
+      "idealMonthlyDay": {
+        "idealDayOfMonth": 3
+      }
+    },
+    "durationMaxMins": 240,
+    "durationMinMins": 120,
+    "eventType": "SOLO_WORK",
+    "timePolicyType": "ONE_OFF",
+    "oneOffPolicy": {
+      "dayHours": {
+        "TUESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "FRIDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "THURSDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "MONDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        },
+        "WEDNESDAY": {
+          "intervals": [
+            {
+              "start": "08:00:00",
+              "end": "17:00:00",
+              "duration": 32400.000000000
+            }
+          ],
+          "startOfDay": "08:00:00",
+          "endOfDay": "17:00:00"
+        }
+      },
+      "startOfWeek": "MONDAY",
+      "endOfWeek": "FRIDAY"
+    },
+    "priority": "P3"
+  }
+]
